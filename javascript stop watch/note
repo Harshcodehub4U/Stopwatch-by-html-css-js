@@ -1,0 +1,66 @@
+                                    HTML
+
+step 1{
+
+normal take a  2 div
+
+1) 1 div has 
+   [
+    span (hr for min for sec for ms  value) 
+    then give id  and classes
+
+
+    span( normal text hr, min, sec,  ms)
+   ]
+
+2)   2 div has[
+    3 button 
+    same class all button
+    diffrent id for all button 
+   ]
+
+}
+                                        css
+step 2{
+    normal apply css
+}
+                                        javascript
+
+step3{
+    a)
+    create a variable for [hr, min, sec, ms] and also create a boolean value for start stopwatch
+    
+    b)
+    create a three function for [stop,start,reset]
+
+    c) make a another function stopwatch() [ for all login in this setTimout(and call this function ,10)]
+
+    d)then stopwatch() function call in start button
+
+    e) then target all element by document.queryselector() and * also call in reset 
+
+    f) then all targeted element change to the innerHTML = 00
+
+    g) then in stopwatch() all target element string pass for 00 by making variable and compire by if else 
+
+    h) like this
+    
+     var hrstring = hr;
+        var minstring = min;
+        var secstring = sec;
+        var countstring = count;
+
+        if(hr < 10){
+            hrstring = "0"+hrstring
+        }
+        if(min < 10){
+            minstring = "0"+minstring
+        }
+        if(sec < 10){
+            secstring = "0"+secstring
+        }
+        if(count < 10){
+            countstring = "0"+countstring
+        }
+
+}
